@@ -29,7 +29,7 @@ GEM
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -59,7 +59,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1.4)
-  rake (~> 10.0)
+  rake (~> 13.0)
   webapp_examiner_spec!
 
 BUNDLED WITH
