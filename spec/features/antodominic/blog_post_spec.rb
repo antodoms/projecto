@@ -2,7 +2,8 @@ describe "Blog Post", :blog_post do
   it "shows Blog post heading" do
     visit "/"
     click_on "Blog"
-    expect(page.body).to include("Blog Posts")
+    html = Sanitize.clean(page.body).gsub(/\s+/, " ").strip
+    expect(html).to include("Blog Posts")
   end
 
   it "has at least 1 blog post" do
