@@ -1,5 +1,6 @@
 require "webapp_examiner_spec/version"
 require "webapp_examiner_spec/railtie" if defined?(Rails)
+require "webapp_examiner_spec/engine"
 
 module WebappExaminerSpec
   class Error < StandardError; end
