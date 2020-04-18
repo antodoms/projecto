@@ -1,4 +1,4 @@
-module WebappExaminerSpec
+module Projecto
   class Engine < ::Rails::Engine
     require "rspec-rails"
     require "capybara"

@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "webapp_examiner_spec/version"
+require "projecto/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "webapp_examiner_spec"
-  spec.version       = WebappExaminerSpec::VERSION
+  spec.name          = "projecto"
+  spec.version       = Projecto::VERSION
   spec.authors       = ["Anto Dominic"]
   spec.email         = ["antodoms@gmail.com"]
 
@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/antodoms/webapp_examiner_spec.git"
-    spec.metadata["changelog_uri"] = "https://github.com/antodoms/webapp_examiner_spec/blob/develop/CHANGELOG.md"
+    spec.metadata["source_code_uri"] = "https://github.com/antodoms/projecto.git"
+    spec.metadata["changelog_uri"] = "https://github.com/antodoms/projecto/blob/develop/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

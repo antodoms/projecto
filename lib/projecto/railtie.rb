@@ -1,9 +1,9 @@
-require "webapp_examiner_spec"
+require "projecto"
 require "rails"
 
-module WebappExaminerSpec
+module Projecto
   class Railtie < Rails::Railtie
-    railtie_name :webapp_examiner_spec
+    railtie_name :projecto
     rake_tasks do
       path = File.expand_path(__dir__)
       Dir.glob("#{path}/tasks/*.rake").each { |f| load f }

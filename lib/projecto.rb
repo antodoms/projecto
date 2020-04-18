@@ -1,8 +1,8 @@
-require "webapp_examiner_spec/version"
-require "webapp_examiner_spec/railtie" if defined?(Rails)
-require "webapp_examiner_spec/engine"
+require "projecto/version"
+require "projecto/railtie" if defined?(Rails)
+require "projecto/engine"
 
-module WebappExaminerSpec
+module Projecto
   class Error < StandardError; end
 
   def self.root

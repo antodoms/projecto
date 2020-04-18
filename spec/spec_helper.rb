@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "webapp_examiner_spec"
+require "projecto"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
