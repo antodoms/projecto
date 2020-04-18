@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    webapp_examiner_spec (0.1.1)
+    webapp_examiner_spec (0.2.0)
       capybara (~> 2.13)
       rails (~> 5.1.6)
       rspec-rails (~> 4.0.0)
