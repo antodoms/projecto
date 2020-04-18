@@ -20,9 +20,23 @@ Or install it yourself as:
 
     $ gem install webapp_examiner_spec
 
+Or building the gem
+
+    $ gem build webapp_examiner_spec.gemspec
+
 ## Usage
 
-TODO: Write usage instructions here
+### Running the test for a project
+
+    $ rake webapp_examiner_spec:run_test project=antodominic
+
+### Running the test for a project and a feature
+
+    $ rake webapp_examiner_spec:run_test project=antodominic feature=home_page
+
+### target a external URL for testing
+
+    $ HOST_ADDRESS=https://www.antodominic.com rake webapp_examiner_spec:run_test project=antodominic feature=home_page
 
 ## Development
 
