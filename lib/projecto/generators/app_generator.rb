@@ -6,6 +6,8 @@ module Projecto
     class_option :database, type: :string, aliases: "-d", default: "postgresql",
                             desc: "Configure for selected database (options: #{DATABASES.join('/')})"
 
+    class_option :skip_bootsnap, type: :boolean, default: true,
+                            desc: "Skip bootsnap gem"
     class_option :skip_turbolinks, type: :boolean, default: false,
                             desc: "Skip turbolinks gem"
     class_option :skip_webpack_install, type: :boolean, default: true,
@@ -17,6 +19,7 @@ module Projecto
 
     def projecto_customizations
       build :set_ruby_version
+      build :setup_rspec
     end
          
     protected

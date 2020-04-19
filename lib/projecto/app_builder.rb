@@ -7,5 +7,12 @@ module Projecto
     def gemfile
       template "Gemfile.erb", "Gemfile"
     end
+
+    # Test environment for projecto
+    def setup_rspec
+      create_file ".rspec", "--require rails_helper\n", force: true
+      template "rspec/rails_helper", "spec/rails_helper.rb", force: true
+      template "rspec/spec_helper", "spec/spec_helper.rb", force: true
+    end
   end
 end
