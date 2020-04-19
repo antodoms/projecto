@@ -25,6 +25,8 @@ Or building the gem
     $ gem build projecto.gemspec
 
 ## Usage
+### Installing a new project
+    $ projecto <directory of the project to install>
 
 ### Running the test for a project
 
