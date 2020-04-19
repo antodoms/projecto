@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    projecto (0.1.2)
+    projecto (0.2.0)
       capybara (~> 2.13)
       rails (~> 6.0.2.2)
       rspec-rails (~> 4.0.0)
-      sanitize
-      selenium-webdriver
-      webdrivers
+      sanitize (~> 5.1)
+      selenium-webdriver (~> 3)
+      webdrivers (~> 4.3)
 
 GEM
   remote: https://rubygems.org/

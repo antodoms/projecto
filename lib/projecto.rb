@@ -1,6 +1,9 @@
+require "rails"
 require "projecto/version"
 require "projecto/railtie" if defined?(Rails)
-require "projecto/engine"
+require "projecto/engine" if defined?(Rails)
+require "projecto/generators/app_generator" if defined?(Rails)
+require "projecto/app_builder" if defined?(Rails)
 
 module Projecto
   class Error < StandardError; end

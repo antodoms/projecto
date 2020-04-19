@@ -1,5 +1,3 @@
-require "rails"
-
 module Projecto
   class Engine < ::Rails::Engine
     require "rails"
