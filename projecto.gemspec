@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_dependency "rails", "~> 5.1.6" 
+  spec.add_dependency "rails", "~> 6.0.2.2" 
   spec.add_dependency "rspec-rails", "~> 4.0.0"
   spec.add_dependency "capybara", "~> 2.13"
   spec.add_dependency "selenium-webdriver"
